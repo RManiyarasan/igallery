@@ -33,14 +33,14 @@ Publish the website in the given URL.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Photo Gallery</title>
     <style>
-        /* Basic reset */
+       
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        /* Body and Container Styles */
+        
         body {
             font-family: Arial, sans-serif;
             background-color:crimson;
@@ -67,7 +67,6 @@ Publish the website in the given URL.
             margin-bottom: 20px;
         }
 
-        /* Gallery Grid Layout */
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -75,7 +74,7 @@ Publish the website in the given URL.
             justify-items: center;
         }
 
-        /* Gallery Item Styling */
+        
         .gallery-item {
             border-radius: 8px;
             overflow: hidden;
@@ -94,7 +93,7 @@ Publish the website in the given URL.
             border-radius: 8px;
         }
 
-        /* Modal Styles */
+        
         .modal {
             display: none;
             position: fixed;
